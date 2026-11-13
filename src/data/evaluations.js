@@ -1,0 +1,32 @@
+export const evaluations = [
+  {
+    id: "ev1",
+    enfantId: "e1",
+    titre: "Évaluation émotionnelle — Léa",
+    questionnaireId: "q3",
+    date: "2025-05-11",
+    statut: "termine",
+    score: 78,
+    dureeMin: 8,
+  },
+  {
+    id: "ev2",
+    enfantId: "e2",
+    titre: "Évaluation émotionnelle — Noah",
+    questionnaireId: "q1",
+    date: "2025-05-09",
+    statut: "en_cours",
+    score: null,
+    dureeMin: 3,
+  },
+  {
+    id: "ev3",
+    enfantId: "e1",
+    titre: "Évaluation émotionnelle — Léa",
+    questionnaireId: "q2",
+    date: "2025-04-30",
+    statut: "termine",
+    score: 82,
+    dureeMin: 7,
+  },
+];
